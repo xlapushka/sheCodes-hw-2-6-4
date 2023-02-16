@@ -1,0 +1,76 @@
+:root {
+  --current-city: Tokyo;
+}
+
+body {
+  padding: 10px;
+  margin-top: 40px;
+  border: 2px solid darkgrey;
+  font-size: 24px;
+  color: lightslategray;
+}
+
+.weather-on-week {
+  margin-top: 80px;
+}
+
+.tomorrow-weather {
+  font-size: 42px;
+}
+
+.change-city .btn {
+  background-color: lightslategray;
+}
+
+.degree, .in > span {
+  font-size: 86px;
+}
+
+.change-city {
+  display: flex;
+  justify-content: end;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+}
+
+.in,
+.change-city {
+  border: 2px solid yellow;
+} 
+
+/* 
+.now-is {
+  border: 2px solid blue;
+} 
+
+/* .degree {
+  border: 2px solid red;
+  color: darkcyan;
+  font-size: 80px;
+}
+
+.current-time {
+  border: 2px solid green;
+  font-size: 14px;
+  margin-top: -100px;
+}
+
+.current-wind, .current-precipitation {
+  border: 2px solid darkgoldenrod;
+
+}
+
+.current-precipitation {
+  border: 2px solid darkred;
+}
+
+.map-of-winds {
+  padding: 10px;
+} */
+
+ */

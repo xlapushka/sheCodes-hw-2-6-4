@@ -223,3 +223,21 @@ h2 {
   opacity: 0.4;
   color: #9d221e;
 }
+
+.coded-by {
+  text-align: start;
+  transform: translateY(72px);
+}
+
+.coded-github,
+.coded-by-facebook {
+  font-size: 16px;
+  color: inherit;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.coded-github:is(:hover, :focus),
+.coded-by-facebook:is(:hover, :focus) {
+  color: #9d221e;
+}
